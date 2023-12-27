@@ -1,0 +1,14 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: #2b2a33;
+  }
+
+  body {
+    @apply fixed top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-[390px] min-w-[390px] w-[390px] h-[800px] min-h-[800px] max-h-[800px] rounded-[25px] bg-app_bg overflow-hidden;
+  }
+}
